@@ -1,0 +1,30 @@
+.container{
+    margin-top: 200px;
+    width: 800px;
+    height: 500px;
+    background-color: yellowgreen;
+    position: relative;
+}
+
+.child1,.child2,.child3{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    font-size: 300%;
+    text-align: center;
+}
+.child1{
+    position: absolute;
+    top:0;
+    right:0; 
+    background-color: blueviolet;
+}
+.child2{
+    position: relative;
+    background-color: tomato;
+    z-index: 0;
+}
+.child3{
+    background-color: blue;
+    color: white;
+}
